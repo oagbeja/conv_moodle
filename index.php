@@ -102,7 +102,7 @@
                         echo '</td><td>';
 
                         echo $arr[$i+1];
-                        if(trim($arr[$i]) == 'ANSWER:') echo '</td></tr><tr><td>';
+                        if(trim($arr[$i]) == 'ANSWER:') { echo '</td></tr><tr><td>';} else { echo ' ';}
                         $i++;
                         continue;
                     }else{
